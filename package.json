@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "start1": "CHOKIDAR_USEPOLLING=true react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
